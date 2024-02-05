@@ -1,0 +1,50 @@
+body {
+  font-family: 'Dancing Script', cursive;
+  background-color: #ADBC9F;
+  text-align: center;
+  padding: 25px;
+}
+h1, h2, h3, p, li{
+  font-family: 'Yesteryear', cursive;
+  color: #EEF0E5;
+}
+.list {
+display:inline
+}
+#ulist {
+  padding:0
+}
+#u2list {
+  padding:0
+}
+.fa-brands {
+  color: #F875AA;
+  font-size:35px;
+  transition:0.3s ease;
+}
+a:hover {
+  background-color: #829460;
+}
+#profile-pic {
+width:200px;
+height:200px;
+border-radius:50%;}
+
+.card {
+background-color:#163020;
+width:300px;
+ margin:25px auto;
+border-radius:5%;
+border: 1px solid #EAEAEA;
+}
+
+#cipher {
+  color: #163020;
+  font-size:45px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
